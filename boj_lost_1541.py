@@ -7,10 +7,6 @@
 #-앞의 숫자를 구분 먼저 하여 다 더하는것이 좋을 듯 하다..
 #-를 기준으로 그합끼리 빼면 최솟값이 나올 것이다..숫자와 연산자들을 이동할 수 없으니 ()만 신경쓴다 즉 무엇을 먼저 계산할 지가 중요하다.
 
-from random import randrange
-from sqlite3 import IntegrityError
-
-
 sic = input()
 interger=list()
 interger = sic.split("-")#+끼리 합이 먼저 이뤄지는 짝끼리 나누어 진다...이를 계산하고 -를 나중에 해주면 되는디... 
